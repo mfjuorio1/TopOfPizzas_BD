@@ -1,0 +1,113 @@
+
+
+body{
+  font-family:'Anton', sans-serif;
+  background-color: rgb(211, 115, 6);
+}
+
+.contact {
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+
+  h1, h2 {
+    font-family:'Anton', sans-serif;
+  }
+  
+  .menu {
+    width: 90%;
+    background-color: rgb(170, 79, 4);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-25px;
+  }
+
+  .item p {
+display:inline-block;
+  }
+
+  .flavor, .beer, .mejor{
+    text-align: left;
+    width: 50%;
+  }
+  
+  .ingr, .sabor {
+    text-align: right;
+    width: 50%;
+  }
+
+  .none {
+    display: none;
+  }
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 2500px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+  .gallery::after {
+    content: "";
+    width: 350px;
+  }
+
+   .header {
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    padding: 10px 20 px; 
+    border-radius: 5px;
+    text-decoration: none;
+    width:200px;
+    cursor: pointer;
+    text-align: center;
+}
+
+footer{
+  background-size: 35%;
+}
+
+a:visited {
+  color: burlywood;
+}
